@@ -1,0 +1,4 @@
+baseURL = 'https://tmaffia.com/'
+languageCode = 'en-us'
+title = "Tom's Blog"
+theme = 'papermod'
