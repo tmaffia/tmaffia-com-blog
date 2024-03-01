@@ -1,7 +1,11 @@
 resource "digitalocean_app" "tmaffia-com-blog" {
   spec {
     name   = "tmaffia-com-blog"
-    region = "nyc1"
+    region = "nyc"
+
+    domain {
+      name = "blog.tmaffia.com"
+    }
 
     static_site {
       name             = "blog"
