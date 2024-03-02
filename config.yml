@@ -1,0 +1,27 @@
+baseURL: 'https://blog.tmaffia.com/'
+languageCode: en-us
+title: Tom's Blog
+theme: papermod
+
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 20
+    - identifier: github
+      name: github
+      url: 'https://github.com/tmaffia'
+      weight: 30
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+custom_css:
+  - css/custom.css

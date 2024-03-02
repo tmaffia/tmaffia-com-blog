@@ -7,6 +7,10 @@ resource "digitalocean_app" "tmaffia-com-blog" {
       name = "blog.tmaffia.com"
     }
 
+    domain {
+      name = "www.tmaffia.com"
+    }
+
     static_site {
       name             = "blog"
       build_command    = "rm -r ./public; hugo --destination ./public"

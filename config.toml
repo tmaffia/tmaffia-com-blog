@@ -1,4 +1,0 @@
-baseURL = 'https://blog.tmaffia.com/'
-languageCode = 'en-us'
-title = "Tom's Blog"
-theme = 'papermod'
