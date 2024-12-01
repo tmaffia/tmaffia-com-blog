@@ -3,6 +3,19 @@ languageCode: en-us
 title: Tom's Blog
 theme: papermod
 
+params:
+  author: Tom Maffia
+  defaultTheme: auto 
+  homeInfoParams:
+    Title: Tom Maffia
+    Content: Full Stack Developer and Music Lover
+
+  socialIcons:
+    - name: "BlueSky"
+      url: "https://bsky.app/profile/tmaffia.com"
+    - name: "Github"
+      url: "https://github.com/tmaffia"
+
 menu:
   main:
     - identifier: about
