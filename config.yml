@@ -18,14 +18,14 @@ params:
 
 menu:
   main:
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 20
-    - identifier: github
-      name: github
-      url: 'https://github.com/tmaffia'
-      weight: 30
+  - identifier: about
+    name: about
+    url: /about/
+    weight: 20
+  - identifier: github
+    name: github
+    url: 'https://github.com/tmaffia'
+    weight: 30
 
 minify:
   disableXML: true
