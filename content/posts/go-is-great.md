@@ -7,7 +7,7 @@ draft = false
 
 It goes without saying that even the best programming languages suck a little bit. Despite being powerful tools written by thousands of smart people, developers will never agree on what perfect is. At some point, the language you love the most will make design choices that you don't like. Go is the language I love the most right now, and it's no exception. There are things that I think could be better. 
 
-Go might be the only language to emerge during my career that truly prioritized simplicity and readability over everything else, even flexibility. In the pre-1.0 days of Go, the language developers were conservative in adding features. Their philosophy has been largely successful, and it's translated well into long-term development practices within the community. Even though Go is no longer designed exclusively by Googlers and is instead governed by the open-source community, this priority still persists.
+Go might be the only language to emerge during my career that truly prioritized simplicity and readability over everything else, even flexibility. In the pre-1.0 days of Go, the language developers were conservative in adding features. Their philosophy has been largely successful, and it's translated well into long-term development practices within the community. Even though Go is no longer designed exclusively by Googlers this priority still persists.
 
 ### Error Handling Is Great, but It Also Sucks
 
