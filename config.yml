@@ -1,0 +1,40 @@
+baseURL: 'https://blog.tmaffia.com/'
+languageCode: en-us
+title: Tom's Blog
+theme: papermod
+
+params:
+  author: Tom Maffia
+  defaultTheme: auto 
+  homeInfoParams:
+    Title: Tom Maffia
+    Content: Full Stack Developer and Music Lover
+
+  socialIcons:
+    - name: "BlueSky"
+      url: "https://bsky.app/profile/tmaffia.com"
+    - name: "Github"
+      url: "https://github.com/tmaffia"
+
+menu:
+  main:
+  - identifier: about
+    name: about
+    url: /about/
+    weight: 20
+  - identifier: github
+    name: github
+    url: 'https://github.com/tmaffia'
+    weight: 30
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+custom_css:
+  - css/custom.css
