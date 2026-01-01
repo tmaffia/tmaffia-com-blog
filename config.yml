@@ -11,10 +11,12 @@ params:
     Content: Full Stack Developer and Music Lover
 
   socialIcons:
-    - name: "BlueSky"
-      url: "https://bsky.app/profile/tmaffia.com"
     - name: "Github"
       url: "https://github.com/tmaffia"
+    - name: "Threads"
+      url: "https://www.threads.com/@tmaffia"
+    - name: "BlueSky"
+      url: "https://bsky.app/profile/tmaffia.com"
 
 menu:
   main:
