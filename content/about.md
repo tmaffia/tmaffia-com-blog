@@ -7,5 +7,4 @@ draft = false
 
 I'm a software developer / solutions architect from New York, now living in Orlando. Unfortunately, you've never met a guy with more opinions...
 
-[Bsky](https://bsky.app/profile/tmaffia.com)  
-[Github](https://github.com/tmaffia)
+{{< socialLinks >}}
