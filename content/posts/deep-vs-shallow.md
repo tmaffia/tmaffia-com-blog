@@ -25,7 +25,7 @@ But if I'm honest, the majority of my career wasn't spent on those principles. I
 ## Velocity vs. Mastery
 In consulting, I live in a constant loop of Just-in-Time learning: absorbing just enough syntax to ship a feature, then immediately moving on. When I do get rare downtime to *up-skill*, what do I focus on? Often, it's AWS and other platform-specific certificates.
 
-These certifications are necessary vocabulary; they prove I know the specific dialect of a cloud provider but the technical depth is often limited. It involves memorizing a proprietary API and a specific vendor's implementation details. I'm gaining specialized knowledge of a single cloud provider rather than a first-principles understanding of distributed systems.
+These certifications are necessary vocabulary; they prove I know the specific dialect of a cloud provider, but the technical depth is often limited. It involves memorizing a proprietary API and a specific vendor's implementation details. I'm gaining specialized knowledge of a single cloud provider rather than a first-principles understanding of distributed systems.
 
 This contrasts sharply with civil or aerospace engineering, where "training" on new workflows can span months. In software, we often view that lead time as friction. The market demands velocity over mastery, forcing us into the shallow end because the business cannot justify months of limited output. We’ve traded deep engineering rigor for market-driven agility.
 
@@ -58,9 +58,9 @@ Agentic AI development tools invert this equation.
 
 The time-to-market gap between "using a proprietary service" and "building it with open source" has collapsed. I can now scaffold a Postgres database with vector extensions and wire up a custom semantic search API in the time it used to take me just to read a vendor's documentation.
 
-This doesn't mean managed services are dead—the value of a vendor is still "Day 2 operations" (the SLA, the compliance, the person holding the pager). We still choose managed services to offload _responsibility_, but we no longer have to choose them just to offload _complexity_.
+This doesn't mean managed services are dead—the value of a vendor is still "Day 2 operations" (the SLA, the compliance, the person holding the pager). We still choose managed services to offload *responsibility*, but we no longer have to choose them just to offload *complexity*.
 
-The shift is subtle but profound: When you use AI to help you build with open-source tools, you are investing in *deep knowledge*.
+The shift is subtle but profound: When you use AI to help you build with open-source tools, you are investing in *deep knowledge*.
 
 - Implementing Vector Search teaches you about tokenization and nearest-neighbor algorithms—principles that apply everywhere.
 - Configuring a proprietary vendor teaches you their specific JSON payload structure—knowledge that expires the moment you switch providers.
@@ -70,4 +70,4 @@ AI has made "The Hard Way" just as fast as "The Easy Way", allowing us to choose
 ## The New Senior Skill Is Judgment
 When code generation is cheap, the scarce resource is no longer implementation. It’s judgment: knowing which abstractions to introduce, which trade-offs are acceptable, and which *working* solution will quietly rot your system from the inside. The senior developer of the AI era is not faster at typing—they are faster at saying no, faster at recognizing structural mistakes, and faster at steering a system away from unnecessary complexity.
 
-There is a real optimism in this shift. For years, the sheer volume of 'shallow' requirements—the boilerplate, the configuration, the endless hunting through documentation for a specific CLI flag—has acted as a tax on our collective creativity. By automating the mundane, AI doesn't just make us faster; it gives us the cognitive breathing room to be _better_. The irony is perfect: it took artificial intelligence to give us back the cognitive space to practice real engineering. AI hasn't replaced the need for rigor; it has finally cleared the path for us to practice it.
+There is a real optimism in this shift. For years, the sheer volume of 'shallow' requirements—the boilerplate, the configuration, the endless hunting through documentation for a specific CLI flag—has acted as a tax on our collective creativity. By automating the mundane, AI doesn't just make us faster; it gives us the cognitive breathing room to be *better*. The irony is perfect: it took artificial intelligence to give us back the cognitive space to practice real engineering. AI hasn't replaced the need for rigor; it has finally cleared the path for us to practice it.
