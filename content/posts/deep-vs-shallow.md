@@ -2,7 +2,7 @@
 title = 'Deep vs Shallow Knowledge in an AI World'
 url = '/posts/deep-vs-shallow-knowledge'
 date = 2025-08-26T22:25:53-05:00
-draft = true
+draft = false
 
 [cover]
   image = '/img/posts/deep-vs-shallow/ai-world.png'
