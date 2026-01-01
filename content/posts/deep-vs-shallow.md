@@ -5,7 +5,7 @@ date = 2025-08-26T22:25:53-05:00
 draft = true
 +++
 
-I came across [this video](https://www.youtube.com/watch?v=Z0SJNkzOiq4&ab_channel=gamedevcuts) a few weeks ago from Jonathan Blow, the lord almighty of hot takes. Though I was initially dismissive, some of his points hit home. He argues that modern developers are drowning in Shallow Knowledge: the study of arbitrary APIs, specific frameworks, and temporary tooling choices. We spend years mastering complexity that was invented by another human, rather than mastering Deep Knowledge—fundamental truths about computation, data structures, and architecture that remain true regardless of the tech stack. Shallow knowledge is knowing how to use a tool; Deep knowledge is knowing why the tool exists and how it functions under the hood. Shallow knowledge is instance-specific. Deep knowledge remains true even when the implementation changes.
+I came across [this video](https://www.youtube.com/watch?v=Z0SJNkzOiq4&ab_channel=gamedevcuts) a few weeks ago from Jonathan Blow, the lord almighty of hot takes. Though I was initially dismissive, some of his points hit home. He argues that modern developers are drowning in Shallow Knowledge: the study of arbitrary APIs, specific frameworks, and temporary tooling choices. We spend years mastering complexity that was invented by another human, rather than mastering Deep Knowledge: fundamental truths about computation, data structures, and architecture that remain true regardless of the tech stack. Shallow knowledge is knowing how to use a tool; Deep knowledge is knowing why the tool exists and how it functions under the hood. Shallow knowledge is instance-specific. Deep knowledge remains true even when the implementation changes.
 
 But I'd argue that regardless of whether you studied CS at Stanford, or did a 3-month coding boot camp, the industry forces a cycle of shallow learning on us all.
 
@@ -23,7 +23,7 @@ These certifications are necessary vocabulary, they prove I know the specific di
 
 This contrasts sharply with civil or aerospace engineering, where "training" on new workflows can span months. In software, we often view that lead time as friction. The market demands velocity over mastery, forcing us into the shallow end because the business cannot justify months of limited output. We’ve traded deep engineering rigor for market-driven agility.
 
-For all of the hype and nonsense surrounding LLMs, one thing is clear: they have commoditized shallow knowledge, returning us to the deep end.
+For all of the hype surrounding LLMs, one thing is clear: they have commoditized shallow knowledge, returning us to the deep end.
 
 ## From Implementation to Intent
 We need to fundamentally change how we value knowledge in software development. For decades, "Seniority" was often proxied by Shallow Knowledge: how well you had memorized the API surface of a specific library, or how extensive your experience with a specific framework. AI has effectively commoditized this knowledge. It has reduced the value of syntax memorization. This shift became real for me when I realized just how effortlessly my core skills translated to languages and frameworks I had never touched before.
@@ -33,7 +33,7 @@ Working with an Agentic AI is like pair programming with an infinite team of bri
 This shifts the role of the Senior Developer. You are no longer valuable because you know how to write the code; you are valuable because you know what code should be written. Your primary role shifts from contributor to architect, guided by the ability to constrain and direct.
 
 ## High Velocity Requires Higher Discipline
-Because the AI handles the syntax, there is a dangerous misconception that we can ignore the "How" and focus only on the product. This is false. In fact, understanding the "Deep How"—the underlying architecture and design principles—is more critical now than ever before.
+Because the AI handles the syntax, there is a dangerous misconception that we can ignore the "How" and focus only on the product. This is false. In fact, understanding the underlying architecture and design principles is more critical now than ever before
 
 LLMs allow us to generate code at a velocity we have never seen. This shifts the cognitive load from creation to verification. If we don't treat AI assisted code changes as "proposals" rather than completed work, we will simply build technical debt at 100x speed. The modern code review is no longer just about logic; it is a liability check. You must possess the architectural maturity to look at a block of technically correct code and recognize that, while it compiles, it is structurally disastrous.
 
@@ -44,7 +44,7 @@ Agentic AI development tools invert this equation.
 
 I can now scaffold a Postgres database with the pgvector extension, generate the embeddings generation logic in Python, and wire up a semantic search API in the time it used to take me to read the Algolia or Pinecone documentation. The time-to-market delta between "build it yourself with open source" and "use the proprietary service" has collapsed.
 
-This isn't to say "Buying" is dead. The value of a managed service isn't just the setup time; it's the operational offloading—the SLA, the compliance, and the person holding the pager at 3 AM. If you build it, you own it, and AI doesn't solve Day 2 operations yet.
+This isn't to say "Buying" is dead. The value of a managed service isn't just the setup time; it's the operational offloading-the SLA, the compliance, and the person holding the pager at 3 AM. If you build it, you own it, and AI doesn't solve Day 2 operations yet.
 
 However, for many features, the "Build" option is now viable where it wasn't before. And here is the deeper shift: When you choose to build with open source tools, you're choosing Deep Knowledge over Shallow Knowledge.
 
