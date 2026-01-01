@@ -48,3 +48,4 @@ override.tf.json
 .terraformrc
 terraform.rc
 .claude/settings.local.json
+.playwright-mcp/

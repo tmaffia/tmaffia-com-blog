@@ -1,0 +1,83 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#333" font-weight="700">Time to Production: Vector Search Feature</text>
+  
+  <!-- Y-axis -->
+  <line x1="120" y1="500" x2="120" y2="120" stroke="#333" stroke-width="2"/>
+  <polygon points="120,120 115,130 125,130" fill="#333"/>
+  
+  <!-- Y-axis label -->
+  <text x="50" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333" font-weight="600" transform="rotate(-90 50 310)">Days to Production</text>
+  
+  <!-- Y-axis ticks and labels -->
+  <line x1="115" y1="500" x2="125" y2="500" stroke="#333" stroke-width="2"/>
+  <text x="105" y="505" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#333">0</text>
+  
+  <line x1="115" y1="460" x2="125" y2="460" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="105" y="465" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#666">5</text>
+  
+  <line x1="115" y1="420" x2="125" y2="420" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="105" y="425" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#666">10</text>
+  
+  <line x1="115" y1="380" x2="125" y2="380" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="105" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#666">15</text>
+  
+  <line x1="115" y1="340" x2="125" y2="340" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="105" y="345" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#666">20</text>
+  
+  <line x1="115" y1="300" x2="125" y2="300" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="105" y="305" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="600">25</text>
+  
+  <!-- Grid lines -->
+  <line x1="120" y1="460" x2="700" y2="460" stroke="#f0f0f0" stroke-width="1"/>
+  <line x1="120" y1="420" x2="700" y2="420" stroke="#f0f0f0" stroke-width="1"/>
+  <line x1="120" y1="380" x2="700" y2="380" stroke="#f0f0f0" stroke-width="1"/>
+  <line x1="120" y1="340" x2="700" y2="340" stroke="#f0f0f0" stroke-width="1"/>
+  <line x1="120" y1="300" x2="700" y2="300" stroke="#f0f0f0" stroke-width="1"/>
+  
+  <!-- 2020 Data -->
+  <!-- Vendor Solution: 1 day -->
+  <rect x="200" y="492" width="80" height="8" fill="#3498db" opacity="0.8"/>
+  <text x="240" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333" font-weight="600">1 day</text>
+  
+  <!-- Custom Build: 21 days (3 weeks) -->
+  <rect x="320" y="332" width="80" height="168" fill="#e74c3c" opacity="0.8"/>
+  <text x="360" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333" font-weight="600">21 days</text>
+  <text x="360" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">(3 weeks)</text>
+  
+  <!-- 2020 Label -->
+  <text x="290" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#333" font-weight="700">2020</text>
+  
+  <!-- Gap annotation for 2020 -->
+  <line x1="410" y1="340" x2="410" y2="495" stroke="#95a5a6" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="480" y="420" text-anchor="start" font-family="Arial, sans-serif" font-size="14" fill="#95a5a6" font-style="italic">20 day gap</text>
+  
+  <!-- 2025 Data -->
+  <!-- Vendor Solution: 1 day -->
+  <rect x="540" y="492" width="80" height="8" fill="#3498db" opacity="0.8"/>
+  <text x="580" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333" font-weight="600">1 day</text>
+  
+  <!-- AI-Assisted Custom: 5 days -->
+  <rect x="660" y="460" width="80" height="40" fill="#27ae60" opacity="0.8"/>
+  <text x="700" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333" font-weight="600">5 days</text>
+  
+  <!-- 2025 Label -->
+  <text x="630" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#333" font-weight="700">2025 (AI-Assisted)</text>
+  
+  <!-- Gap annotation for 2025 -->
+  <line x1="750" y1="462" x2="750" y2="495" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="765" y="480" text-anchor="start" font-family="Arial, sans-serif" font-size="14" fill="#27ae60" font-style="italic">4 day gap</text>
+  
+  <!-- Legend -->
+  <rect x="180" y="560" width="20" height="20" fill="#3498db" opacity="0.8"/>
+  <text x="210" y="575" font-family="Arial, sans-serif" font-size="14" fill="#333">Vendor Solution</text>
+  
+  <rect x="350" y="560" width="20" height="20" fill="#e74c3c" opacity="0.8"/>
+  <text x="380" y="575" font-family="Arial, sans-serif" font-size="14" fill="#333">Custom Build (Pre-AI)</text>
+  
+  <rect x="550" y="560" width="20" height="20" fill="#27ae60" opacity="0.8"/>
+  <text x="580" y="575" font-family="Arial, sans-serif" font-size="14" fill="#333">AI-Assisted Build</text>
+</svg>
