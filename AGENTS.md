@@ -4,7 +4,7 @@ This file provides guidance to agents when working with code in this repository.
 
 ## Project Overview
 
-This is a personal blog built with [Hugo](https://gohugo.io/), a static site generator. The site uses the PaperMod theme (included as a git submodule in `themes/papermod/`) and is deployed to DigitalOcean App Platform via Terraform.
+This is a personal blog built with [Hugo](https://gohugo.io/), a static site generator. The site uses the PaperMod theme (included as a git submodule in `themes/papermod/`) and is deployed to GitHub Pages.
 
 ### Key Commands
 
@@ -18,7 +18,6 @@ The `-D` flag includes draft posts in the preview.
 ```bash
 hugo --destination ./public
 ```
-The build command used in production is `rm -r ./public; hugo --destination ./public` (defined in `tf/blog-app.tf`).
 
 **Create a new post:**
 ```bash
@@ -52,11 +51,7 @@ The `url` field overrides the default URL pattern. Setting `draft = false` or re
 
 ### Deployment
 
-The `tf/` directory contains Terraform configuration for deploying to DigitalOcean App Platform:
-- `provider.tf` - DigitalOcean provider configuration
-- `blog-app.tf` - App spec that builds from GitHub on push to the `release` branch
-
-The build uses DigitalOcean's `hugo` environment slug which includes Hugo pre-installed.
+The site is published via GitHub Pages. The `CNAME` file at the repo root (`www.tmaffia.com`) sets the custom domain GitHub Pages serves.
 
 ### Theme Customization
 
